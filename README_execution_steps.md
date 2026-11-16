@@ -45,7 +45,7 @@ Additional libraries:
 **Step 1: Clone the repository**
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/nishantbhattarai77-a11y/signup_automation_script.git
 ```
 
 **Step 2: Open the project**
@@ -66,18 +66,20 @@ mvn clean install
 
 ## 5. Environment Configuration
 
-Create a `.env` file in the project root directory.
+The project uses a .env file to securely store email configuration details required for automated OTP (One-Time Password) retrieval.
 
-Add the required email account configuration:
+Create a .env file in the root directory of the project and add the following environment variables:
 
-```env
-EMAIL_USERNAME=your_email
-EMAIL_PASSWORD=your_app_password
-```
+EMAIL_USERNAME=your_email@gmail.com
+EMAIL_APP_PASSWORD=your_app_password
+OTP_EMAIL_SENDER=sender_email@gmail.com
+OTP_EMAIL_SUBJECT=Your OTP Subject
+HOST_IMAP_HOST=imap.gmail.com
 
-Use the actual environment variable names defined in the project.
+Replace the example values with your actual email credentials, enable IMAP access if required,
+and use a Gmail App Password instead of your regular password. Add .env to .gitignore to ensure sensitive credentials are not uploaded or shared on GitHub.
 
-Do not upload the `.env` file or real email credentials to GitHub.
+
 
 ## 6. Test Data
 
@@ -86,7 +88,7 @@ The project uses a dummy PDF file for the document upload functionality.
 Location:
 
 ```text
-src/test/resources/testdata/dummy_upload.pdf
+src/test/resources/testdatafile/automation_dummy_document.pdf
 ```
 
 The test data file is included in the repository and is used during automation execution.
@@ -100,23 +102,15 @@ The test data file is included in the repository and is used during automation e
 3. Select Run.
 4. Monitor the execution in the Run console.
 
-**Option 2: Using Maven**
-
-```bash
-mvn clean test
-```
-
-Make sure the Maven Surefire configuration is set up to execute the Cucumber TestNG runner.
-
 ## 8. Test Reports
 
 After execution, check the generated test reports.
 
 The reports provide information about:
-- Passed scenarios
-- Failed scenarios
-- Skipped scenarios
-- Execution details
+- Project Information
+- Test Scenario and coverage
+- Test Execution Details
+- Execution Observation
 
 The submitted test report and demo video are available in the repository.
 
