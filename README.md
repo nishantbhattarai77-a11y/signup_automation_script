@@ -86,16 +86,8 @@ EMAIL_USERNAME=your_email@gmail.com
 EMAIL_APP_PASSWORD=your_email_app_password
 OTP_EMAIL_SENDER=sender_email
 OTP_EMAIL_SUBJECT=OTP_email_subject
+HOST_IMAP_HOST=imap.gmail.com
 ```
-
-### Step 3: Update Your Credentials
-
-Replace the placeholder values with your own test email account details:
-
-- **EMAIL_USERNAME:** Email address used to access the test inbox.
-- **EMAIL_APP_PASSWORD:** App password used for email authentication.
-- **OTP_EMAIL_SENDER:** Email address from which the OTP is received.
-- **OTP_EMAIL_SUBJECT:** Subject of the OTP verification email.
 
 ### Security Note
 
