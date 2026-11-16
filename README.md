@@ -105,5 +105,18 @@ HOST_IMAP_HOST: Gmail IMAP server hostname used to connect to the email inbox an
 - Add `.env` to your `.gitignore` file to prevent accidental commits.
 - Share a `.env.example` file with placeholder values if other users need to configure the project.
 
+## 6. Demo Video
+
+A demo video demonstrating the Signup Automation Script execution is available in the `demo` folder of this repository.
+
+**Demo File:** `demo_video.mp4`
+
+To watch the demonstration:
+1. Open the `demo` folder in the GitHub repository.
+2. Download `demo_video.mp4`.
+3. Open the downloaded video using any compatible media player.
+
+The video demonstrates the automation workflow and execution of the signup process.
+
 
 
