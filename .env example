@@ -1,0 +1,5 @@
+EMAIL_USERNAME=your_email@gmail.com
+EMAIL_APP_PASSWORD=your_app_password
+OTP_EMAIL_SENDER=sender_email@gmail.com
+OTP_EMAIL_SUBJECT=Your OTP Subject
+HOST_IMAP_HOST=imap.gmail.com
